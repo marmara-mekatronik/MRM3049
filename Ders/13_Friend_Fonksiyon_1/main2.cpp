@@ -6,6 +6,7 @@ private:
     double uzunluk;
 public:
     Kutu() : uzunluk(0) {}
+   ~Kutu(){}
 
     // Friend fonksiyon bildirimi
     friend void uzunlukAyarla(Kutu& k, double l);
