@@ -1,3 +1,5 @@
+
+```plantuml
 @startuml
 class Sekil {
     -int genislik
@@ -24,3 +26,5 @@ Sekil <|-- Dikdortgen
 Deger <|-- Dikdortgen
 
 @enduml
+```
+
