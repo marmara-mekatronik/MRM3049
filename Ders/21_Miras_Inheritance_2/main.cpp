@@ -15,7 +15,7 @@ protected:
 
 // Sekil sınıfı fonksiyonlarının tanımları
 void Sekil::setGenislik(int g) {
-    genislik = g;
+    genislik = g;fffff
 }
 void Sekil::setYukseklik(int y) {
     yukseklik = y;
