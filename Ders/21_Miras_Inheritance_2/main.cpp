@@ -1,45 +1,78 @@
 #include <iostream>
+using namespace std;
 
-using namespace::std;
-class Sekil{
+// Temel sınıf: Sekil
+class Sekil {
 public:
     void setGenislik(int g);
     void setYukseklik(int y);
+    int getGenislik() const;
+    int getYukseklik() const;
 
 protected:
-    int genislik, yukseklik;
+    int genislik = 0, yukseklik = 0; // Varsayılan başlangıç değeri
 };
 
+// Sekil sınıfı fonksiyonlarının tanımları
 void Sekil::setGenislik(int g) {
-    genislik=g;
+    genislik = g;
 }
 void Sekil::setYukseklik(int y) {
-    yukseklik=y;
+    yukseklik = y;
+}
+int Sekil::getGenislik() const {
+    return genislik;
+}
+int Sekil::getYukseklik() const {
+    return yukseklik;
 }
 
-class Deger{
+// Ek sınıf: Deger
+class Deger {
 public:
-    int getDeger(int alan){
+    void setBirimDeger(int deger);
+    int getBirimDeger() const;
+    int hesaplaDeger(int alan) const;
+
+private:
+    int birimDeger = 100; // Varsayılan birim değeri
+};
+
+// Deger sınıfı fonksiyonlarının tanımları
+void Deger::setBirimDeger(int deger) {
+    birimDeger = deger;
+}
+int Deger::getBirimDeger() const {
+    return birimDeger;
+}
+int Deger::hesaplaDeger(int alan) const {
     return alan * birimDeger;
-    }
-    int birimDeger;
-};
-
-class Dikdorgen: public Sekil, public Deger {
-public:
-    int getAlan(){
-        return (genislik * yukseklik);
-    }
-};
-
-int main() {
-    int alan;
-    Dikdorgen Dik1;
-    Dik1.setGenislik(5);
-    Dik1.setYukseklik(15);
-    alan = Dik1.getAlan();
-    Dik1.birimDeger=200;
-    cout << "Diktorgenin Alani: " << Dik1.getAlan() << endl;
-    cout << "Diktorgenin Fiyati: " << Dik1.getDeger(alan) << endl;
-    return 0;
 }
+
+// Türetilmiş sınıf: Dikdortgen
+class Dikdortgen : public Sekil, public Deger {
+public:
+    int getAlan() const;
+};
+
+// Dikdortgen sınıfı fonksiyonunun tanımı
+int Dikdortgen::getAlan() const {
+    return genislik * yukseklik;
+}
+
+// Ana program (main)
+int main() {
+    Dikdortgen dikdortgen;
+
+    // Değerlerin atanması
+    dikdortgen.setGenislik(5);
+    dikdortgen.setYukseklik(15);
+    dikdortgen.setBirimDeger(200); // Birim değeri güncelleniyor
+
+    // Hesaplamalar
+    int alan = dikdortgen.getAlan();
+    int fiyat = dikdortgen.hesaplaDeger(alan);
+
+    // Sonuçların ekrana yazdırılması
+    cout << "Dikdörtgenin Genişliği: " << dikdortgen.getGenislik() << endl;
+    cout << "Dikdörtgenin Yüksekliği: " << dikd
