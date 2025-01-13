@@ -15,7 +15,7 @@ protected:
 
 // Sekil sınıfı fonksiyonlarının tanımları
 void Sekil::setGenislik(int g) {
-    genislik = g;fffff
+    genislik = g;
 }
 void Sekil::setYukseklik(int y) {
     yukseklik = y;
@@ -75,4 +75,8 @@ int main() {
 
     // Sonuçların ekrana yazdırılması
     cout << "Dikdörtgenin Genişliği: " << dikdortgen.getGenislik() << endl;
-    cout << "Dikdörtgenin Yüksekliği: " << dikd
+    cout << "Dikdörtgenin Yüksekliği: " << dikdodtgen.getYukseklik() << endl;
+    cout << "Dikdörtgenin Alanı: " << dikdortgen.getAlan() << endl;
+
+    return 0;
+}
