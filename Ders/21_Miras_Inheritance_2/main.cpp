@@ -75,7 +75,7 @@ int main() {
 
     // Sonuçların ekrana yazdırılması
     cout << "Dikdörtgenin Genişliği: " << dikdortgen.getGenislik() << endl;
-    cout << "Dikdörtgenin Yüksekliği: " << dikdodtgen.getYukseklik() << endl;
+    cout << "Dikdörtgenin Yüksekliği: " << dikdortgen.getYukseklik() << endl;
     cout << "Dikdörtgenin Alanı: " << dikdortgen.getAlan() << endl;
 
     return 0;
