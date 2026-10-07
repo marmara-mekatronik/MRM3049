@@ -1,6 +1,6 @@
 # MRM3049 - Nesne Yönelimli Programlama (C++)
 
-**Marmara Üniversitesi Mühendislik Fakültesi • Mekatronik Mühendisliği Bölümü**  
+**Marmara Üniversitesi Teknoloji Fakültesi • Mekatronik Mühendisliği Bölümü**  
 **Ders Sorumlusu:** Dr. Hüseyin Yüce
 
 Bu depo, MRM3049 Nesne Yönelimli Programlama dersi kapsamında paylaşılan haftalık ders sunumlarının PDF kopyalarını, örnek C++ kaynak kodlarını ve laboratuvar alıştırmalarını içermektedir.
