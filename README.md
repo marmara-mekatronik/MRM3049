@@ -12,11 +12,11 @@ Bu depo, MRM3049 Nesne Yönelimli Programlama dersi kapsamında paylaşılan haf
 ```
 .
 ├── Ders_Notlari/      # Haftalık ders sunumlarının PDF versiyonları
-│   └── Hafta_01_Giris_ve_CPP_Temelleri.pdf
+│   ├── Hafta_01_Giris_ve_CPP_Temelleri.pdf
+│   └── Hafta_02_Kontrol_Yapilari_ve_Donguler.pdf
 ├── Kodlar/            # Haftalık derlenebilir bağımsız C++ örnekleri
-│   └── Hafta_01_Giris_ve_CPP_Temelleri/
-│       ├── 01_sinif_class_nedir.cpp ... 28_alistirma_5_*.cpp
-│       └── README.md
+│   ├── Hafta_01_Giris_ve_CPP_Temelleri/
+│   └── Hafta_02_Kontrol_Yapilari_ve_Donguler/
 ├── LICENSE            # Lisans belgesi
 └── README.md          # Ders ve depo rehberi
 ```
