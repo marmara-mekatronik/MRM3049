@@ -16,13 +16,15 @@ Bu depo, MRM3049 Nesne Yönelimli Programlama dersi kapsamında paylaşılan haf
 │   ├── Hafta_02_Kontrol_Yapilari_ve_Donguler.pdf
 │   ├── Hafta_03_Fonksiyonlar.pdf
 │   ├── Hafta_04_Diziler_ve_Karakter_Dizileri.pdf
-│   └── Hafta_05_Pointerlar_ve_Bellek_Yonetimi.pdf
+│   ├── Hafta_05_Pointerlar_ve_Bellek_Yonetimi.pdf
+│   └── Hafta_06_Yapilar_ve_Birlikler.pdf
 ├── Kodlar/            # Haftalık derlenebilir bağımsız C++ örnekleri
 │   ├── Hafta_01_Giris_ve_CPP_Temelleri/
 │   ├── Hafta_02_Kontrol_Yapilari_ve_Donguler/
 │   ├── Hafta_03_Fonksiyonlar/
 │   ├── Hafta_04_Diziler_ve_Karakter_Dizileri/
-│   └── Hafta_05_Pointerlar_ve_Bellek_Yonetimi/
+│   ├── Hafta_05_Pointerlar_ve_Bellek_Yonetimi/
+│   └── Hafta_06_Yapilar_ve_Birlikler/
 ├── LICENSE            # Lisans belgesi
 └── README.md          # Ders ve depo rehberi
 ```
