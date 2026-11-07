@@ -33,6 +33,10 @@ g++ -std=c++14 -Wall -Wextra <dosya_adi>.cpp -o program
 | **13** | `13_alistirma_2_fizzbuzz_algoritmasi.cpp` | Alıştırma 2 | Klasik FizzBuzz mantığı ve kritik kontrol sırası |
 | **14** | `14_alistirma_3_asal_sayi_kontrolu.cpp` | Alıştırma 3 | Asal sayı testi ve $\sqrt{N}$ döngü optimizasyonu |
 | **15** | `15_mini_proje_mekatronik_terminali.cpp` | Mini Proje | Sonlu Durum Makinesi (FSM) tabanlı robot terminali |
+| **16** | `16_alistirma_4_fibonacci_serisi.cpp` | Alıştırma 4 | İlk $N$ terimlik Fibonacci serisi ve değişken kaydırma mantığı |
+| **17** | `17_alistirma_5_faktoriyel_ve_tasma.cpp` | Alıştırma 5 | 64-bit (`long long`) faktöriyel hesabı ve tamsayı taşması kontrolü |
+| **18** | `18_alistirma_6_dinamik_istatistik_analizoru.cpp` | Alıştırma 6 | `do-while` ile dinamik sayı analizi (Adet, Min, Max, Ortalama ve `static_cast`) |
+| **19** | `19_alistirma_7_gun_belirleyici_switch.cpp` | Alıştırma 7 | `switch-case` ile haftanın gününü belirleyen durum makinesi |
 
 ---
 *Marmara Üniversitesi Teknoloji Fakültesi Mekatronik Mühendisliği • Dr. Hüseyin Yüce*
