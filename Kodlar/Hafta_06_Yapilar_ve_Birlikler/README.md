@@ -2,7 +2,7 @@
 
 Bu dizin, **Nesne Yönelimli Programlama** dersinin 6. hafta sunumunda yer alan tüm C++ kod örneklerini, vaka analizlerini ve mekatronik laboratuvar uygulamalarını içermektedir.
 
-## Kod Dosyaları Listesi (19 Adet)
+## Kod Dosyaları Listesi (22 Adet)
 
 | No | Dosya Adı | Konu Başlığı | Odak / Mühendislik Senaryosu |
 | :---: | :--- | :--- | :--- |
@@ -25,6 +25,9 @@ Bu dizin, **Nesne Yönelimli Programlama** dersinin 6. hafta sunumunda yer alan 
 | **17** | `17_robot_durum_makinesi_fsm.cpp` | Vaka Analizi 2 | `enum class` ve `struct` tabanlı Robot Durum Makinesi (FSM) |
 | **18** | `18_alistirma_1_imu_sensor_kalibrasyonu.cpp` | Alıştırma 1 | 6-Eksen IMU sensör paketi ve referansla jiroskop kalibrasyonu |
 | **19** | `19_alistirma_2_16bit_adc_kaydedici.cpp` | Alıştırma 2 | 16-Bit ADC sonuç kaydedicisi hibrit `union` ve bit çözümleme |
+| **20** | `20_endian_testi_ve_bayt_siralamasi.cpp` | Endian Mimarisi | `union` ile Little-Endian tespiti ve UART TX bayt sırası |
+| **21** | `21_bitwise_islemler_ve_maskeleme.cpp` | Bitwise Operatörler | Bit Set, Bit Clear, Bit Toggle, Bit Check ve maskeleme |
+| **22** | `22_bellek_fragmantasyonu_ve_padding.cpp` | Bellek Fragmantasyonu | Dahili parçalanma analizi, dolgu baytları ve sıralama kazancı |
 
 ## Derleme ve Çalıştırma
 
