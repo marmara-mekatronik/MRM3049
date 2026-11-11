@@ -2,7 +2,7 @@
 
 Bu dizin, **Nesne Yönelimli Programlama** dersinin 6. hafta sunumunda yer alan tüm C++ kod örneklerini, vaka analizlerini ve mekatronik laboratuvar uygulamalarını içermektedir.
 
-## Kod Dosyaları Listesi (22 Adet)
+## Kod Dosyaları Listesi (23 Adet)
 
 | No | Dosya Adı | Konu Başlığı | Odak / Mühendislik Senaryosu |
 | :---: | :--- | :--- | :--- |
@@ -28,6 +28,7 @@ Bu dizin, **Nesne Yönelimli Programlama** dersinin 6. hafta sunumunda yer alan 
 | **20** | `20_endian_testi_ve_bayt_siralamasi.cpp` | Endian Mimarisi | `union` ile Little-Endian tespiti ve UART TX bayt sırası |
 | **21** | `21_bitwise_islemler_ve_maskeleme.cpp` | Bitwise Operatörler | Bit Set, Bit Clear, Bit Toggle, Bit Check ve maskeleme |
 | **22** | `22_bellek_fragmantasyonu_ve_padding.cpp` | Bellek Fragmantasyonu | Dahili parçalanma analizi, dolgu baytları ve sıralama kazancı |
+| **23** | `23_geleneksel_enum_ve_durum_denetimi.cpp` | Numaralandırmalar (`enum`) | Geleneksel enum, sihirli sayılar ve switch-case durum denetimi |
 
 ## Derleme ve Çalıştırma
 
@@ -38,5 +39,5 @@ Herhangi bir kaynak kod dosyasını `g++` ile bağımsız olarak derleyebilirsin
 cd Kodlar/Hafta_06_Yapilar_ve_Birlikler
 
 # Tekil dosya derleme ve çalıştırma:
-g++ -std=c++14 -Wall -Wextra 16_mekatronik_can_bus_telemetri_cercevesi.cpp -o /tmp/program && /tmp/program
+g++ -std=c++14 -Wall -Wextra 23_geleneksel_enum_ve_durum_denetimi.cpp -o /tmp/program && /tmp/program
 ```
